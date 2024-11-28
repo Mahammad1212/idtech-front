@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .pricing-table {
+            text-align: center;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 50px;
+            color: #333;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: right;
+            gap: 20px;
+            padding-left: 10%;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            margin: 0;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #000;
+            margin: 15px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            color: #777;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff4a4a;
+        }
+
+        .card.pro button {
+            background-color: #6bcf6b;
+        }
+
+        .card.pro button:hover {
+            background-color: #52b852;
+        }
+
+        .card.enterprise button {
+            background-color: #6b8fcf;
+        }
+
+        .card.enterprise button:hover {
+            background-color: #5274b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <h1>Pricing Table</h1>
+        <div class="cards">
+            
+            <div class="card basic">
+                <div class="icon"></div>
+                <h2>Basic</h2>
+                <p class="price">FREE</p>
+                <ul>
+                    <li>Unlimited conferences</li>
+                    <li>100 participants max</li>
+                    <li>Custom Hold Music</li>
+                    <li>10 participants max</li>
+                </ul>
+                <button>Free</button>
+            </div>
+
+            
+            <div class="card pro">
+                <div class="icon"></div>
+                <h2>Pro</h2>
+                <p class="price">$49</p>
+                <ul>
+                    <li>Unlimited conferences</li>
+                    <li>100 participants max</li>
+                    <li>Custom Hold Music</li>
+                    <li>10 participants max</li>
+                </ul>
+                <button>Purchase</button>
+            </div>
+
+            
+            <div class="card enterprise">
+                <div class="icon"></div>
+                <h2>Enterprise</h2>
+                <p class="price">$69</p>
+                <ul>
+                    <li>Unlimited conferences</li>
+                    <li>100 participants max</li>
+                    <li>Custom Hold Music</li>
+                    <li>10 participants max</li>
+                </ul>
+                <button>Purchase</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
