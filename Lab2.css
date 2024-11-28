@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+}
+
+.nav-words {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.sign-up .btn {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.sign-up .btn:hover {
+    background-color: darkgreen;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.second {
+    color: rgb(240, 112, 238);
+    margin-left: 100px;
+}
+
+.third {
+    margin-left: 100px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 100px;
+    position: relative;
+    top: 40px;
+}
+.button:hover{
+    background-color: darkgreen;
+}
+.img {
+    margin-left: 700px;
+    height: 400px;
+    width: 700px;
+    margin-top: -200px;
+    
+}
