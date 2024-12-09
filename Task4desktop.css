@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu ul li a.active {
+    color: #ff4500;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    margin-left: 50px;
+}
+
+.Foodapp {
+    margin-top: -500px;
+    margin-left: 730px;
+    color: white;
+}
+
+.text {
+    margin-left: 600px;
+    margin-top: 10px;
+    color: white;
+}
+
+.text1 {
+    color: white;
+    margin-left: 640px;
+}
+
+.btn1 {
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 30px;
+    width: 236px;
+    height: 68px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.btn2:hover {
+    background-color: grey;
+}
+
+.btn2 {
+    background-color: none;
+    border-radius: 30px;
+    width: 236px;
+    height: 68px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.phone {
+    margin-left: 350px;
+    margin-top: -90px;
+}
+
+.phone1 {
+    margin-left: 730px;
+    margin-top: -700px;
+}
+
+.hr {
+    margin-left: -450px;
+    width: 900px;
+    margin-top: 130px;
+}
+
+.text2 {
+    margin-top: 70px;
+    margin-left: 600px;
+}
+
+.phone2 {
+    margin-left: 100px;
+}
+
+.Orange {
+    color: #ff4500;
+    margin-left: 700px;
+    margin-top: -500px;
+}
+
+.Green {
+    margin-left: 700px;
+}
+
+.Gray {
+    color: gray;
+    margin-left: 700px;
+}
+
+.Orange1 {
+    color: #ff4500;
+}
+
+.Gray2 {
+    color: gray;
+}
+
+.second {
+    margin-top: -550px;
+    margin-left: 650px;
+}
+
+.thirdplace {
+    margin-left: 950px;
+}
+
+.Orange2 {
+    color: #ff4500;
+}
+
+.Gray3 {
+    color: gray;
+}
+
+.Last {
+    margin-top: -500px;
+    margin-left: 650px;
+}
+
+.image3 {
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.Bye {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.image4 {
+    margin-top: -350px;
+    margin-left: 600px;
+    color: white;
+}
+
+.last2 {
+    margin-left: -160px;
+}
+.btn3{
+    background-color: #ff4500;
+    border: 1px solid #ff4500;
+    border-radius: 10px;
+    width: 142px;
+    height: 64px;
+    color: white;
+    margin-left: 540px;
+}
+.btn4{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 142px;
+    height: 64px;
+    margin-left: 100px;
+}
+.btn4:hover{
+    background-color:grey;
+}
+.Orange3{
+    margin-top: 220px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.Thelast{
+margin-top: -80px;
+margin-left: 650px;
+display: flex;
+gap: 30px;
+}
+.lastword{
+    margin-left: 1000px;
+    margin-top: -30px;
+}
