@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="lab9.css">
+</head>
+<body>
+    <h1>1-100 arası bir ədəd düşünürəm.</h1>
+    <p>Bunu tapa bilərsənmi?</p>
+    
+    <input type="number" id="guessInput" placeholder="Ədəd daxil et">
+    <button onclick="checkGuess()">Oyna</button>
+
+    <p id="message"></p>
+    <p>Giriş sayı: <span id="guessCount">0</span></p>
+    <p>Girilən ədədlər: <span id="guessedNumbers">Yoxdur</span></p>
+
+    <script src="lab9.js"></script>
+</body>
+</html>
